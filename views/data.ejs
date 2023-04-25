@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data</title>
+</head>
+<body>
+  <h1>Data</h1>
+  <ul>
+    <% for(let i=0; i<data.length; i++) { %>
+      <li><%= data[i].name %> | <%= data[i].email %> | <%= data[i].phone %></li>
+    <% } %>
+  </ul>
+</body>
+</html>
